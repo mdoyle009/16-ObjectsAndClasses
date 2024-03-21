@@ -26,6 +26,8 @@ class Pet:
         return f"Name: {about.name}, Age: {about.age}"
     def speak(about):
         print(f"{about.name}: Bark! Bark! Bark!")
+
+#testing:
 dog1 = Pet("Buster", 4)
 print(dog1)
 dog1.speak()
