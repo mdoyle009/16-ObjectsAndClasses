@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #
 #   In this module, we are going to look at some familiar concepts that we have
 #   seen before. You will notice that many of the things you have learned in
@@ -25,8 +25,13 @@ obj_2 = [1, 2, 3, 4, 5]
 obj_3 = ("Red", "Blue", "Green")
 obj_4 = {6, 7, 8, 9}
 
+print(type(obj_1))
+print(type(obj_2))
+print(type(obj_3))
+print(type(obj_4))
+
 ###############################################################################
-# TODO: 2. (4 pts)
+# DONE: 2. (4 pts)
 #
 #   Also, remember that these objects have methods that we have used to perform
 #   specific tasks on them.
@@ -42,3 +47,14 @@ obj_4 = {6, 7, 8, 9}
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+obj_1 = obj_1.title()
+obj_2.reverse()
+obj_3 = list(obj_3)
+obj_3.append("Purple")
+obj_4.remove(6)
+
+print(obj_1)
+print(obj_2)
+print(obj_3)
+print(obj_4)
